@@ -1,0 +1,211 @@
+body {
+    font-family: Arial,Apple LiGothic Medium,Heiti TC,Microsoft JhengHei,sans-serif;
+    background-image:url(../images/f05.png),
+                     url(../images/f06.png);
+    background-repeat:no-repeat,
+                      no-repeat;
+    background-attachment:fixed,
+                          fixed;
+    background-position: 100% 60px,
+                        0% 100%;
+}
+a{
+    text-decoration: none;
+    color: #565656;
+}
+a:hover{
+  /*  text-decoration: underline; */
+    border-bottom: 1px #565656;
+}
+a:visited{
+    color: #565656;
+}
+a:link{
+    color:#565656;
+}
+a:active{
+    color:#654646;
+}
+#header{
+    background-color:#F0F0F0;
+    background-image:url(../images/tittle_icon.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    width:100%;
+    
+}
+#header a{
+    vertical-align:middle;
+}
+
+.tittle_link{
+    display: block;
+    float: right;
+    line-height: 60px;
+    letter-spacing: 3px;
+    transition: all 2s;
+    
+}
+.tittle_link a{
+    margin-right: 5px;
+   transition: all 1s;
+}
+.tittle_link a:hover{
+ /*   text-decoration: underline; */
+    text-decoration: none;
+ /*   border-bottom: 1px #707070 solid;*/
+    position: relative;
+    top: 2px;
+    color:#cd5c5c;
+    
+}
+.pic{
+    position:relative;
+}
+.pic_txt{
+    position: absolute;
+    top:60%;
+    left:10%;
+    color:#ffffff;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.pic img{
+    width:100%;
+    object-fit: cover;
+    display: block;
+    margin: 60px auto 0 auto;
+}
+.pic_box{
+    border:2px #ffffff solid;
+    width:94%;
+    height: 88%;
+    position:absolute;
+    top:6%;
+    left:3%;
+}
+#content{
+    margin-top: 70px; 
+}
+#content .con_tit{
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #565656;
+    margin-top: 60px;
+}
+#content .con_end{
+    text-align: center;
+    letter-spacing: 3px;
+    color: #7d7d7d;
+    font-size: 16px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+#content .con_end:hover{
+    background-color: #f0f0f0;
+}
+.sticker{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.s1,.s2,.s3{
+    margin-right: 20px;
+    border: 1px #d0d0d0 dotted;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 2px;
+    transition:all 1s;
+    
+}
+.sticker img{
+    border-top: 1px #909090 solid;
+    width: 200px;
+    filter: grayscale(100%);
+    transition:all 1s;
+}
+.s1:hover,.s2:hover,.s3:hover{
+/*    border: 1px #707070 dashed;*/
+    text-decoration: none;
+/*    background-color: #f0f0f0;*/
+    box-shadow: 3px 3px 5px #9f9f9f;
+    
+    
+}
+.sticker img:hover{
+    filter: grayscale(0%);
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    margin: 0 auto;
+}
+.ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8{
+    border: 1px #d0d0d0 dotted;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    transition:all 1s;
+}
+.ic5 img{
+    width: 90px;
+}
+.icon div:hover{
+/*    position: relative;
+    top: 2px;*/
+/*    background-color: #f0f0f0;*/
+    box-shadow: 2px 2px 5px #9f9f9f;
+   
+}
+#video{
+
+}
+.v1,.v2{
+  /*  position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;*/
+    width: 448px;
+    margin: 0px auto;
+}
+.v1 iframe,.v2 iframe{
+ /*   position: absolute;
+    top: 0;
+    left: 0;
+    align-content: center;*/
+    margin-bottom: 10px;
+}
+#footer{
+/*    position: fixed;
+    left: 0;
+    bottom: 0;*/
+    width:100%;
+    line-height: 100px;
+    background-color: #f0f0f0;
+    opacity:0.7;
+}
+#footer p{
+    text-align: center;
+    color: #565656;
+}
