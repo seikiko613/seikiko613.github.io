@@ -9,5 +9,3 @@ function scrollFunction() {
       
   }
 }
-
-$(".tittle_link").hide();
