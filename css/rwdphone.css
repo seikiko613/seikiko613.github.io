@@ -1,9 +1,11 @@
 /* 手機RWD */
-@media screen and (max-widrh:767px){
+@media screen and (max-width:767px){
 
     #tittle_link{
         display: none;
     }
-    
+    #tittle_small{
+        display: block;
+    }
     
 }
