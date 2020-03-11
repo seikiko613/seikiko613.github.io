@@ -1,4 +1,9 @@
 /* 手機RWD */
 @media screen and (max-widrh:767px){
 
+    .title_link{
+        display: none;
+    }
+    
+    
 }
