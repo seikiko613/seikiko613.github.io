@@ -1,5 +1,5 @@
 //標題半透明效果
-window.onscroll = function() {scrollFunction(),StickerScroll()};
+window.onscroll = function() {scrollFunction();StickerScroll();};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
