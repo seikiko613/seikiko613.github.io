@@ -37,7 +37,9 @@ a:active{
 #header a{
     vertical-align:middle;
 }
-
+#header img{
+    width:300px;
+}
 #tittle_link{
     display: block;
     float: right;
@@ -64,7 +66,7 @@ a:active{
     float: right;
     font-size: 34px;
     color: #565656;
-    margin: 10px;
+    margin: 3px 10px 3px 0px;
     border: 2px #565656 solid;
     padding: 0 7px;
     border-radius: 5px;
