@@ -13,7 +13,7 @@ if(isMobile()){
 }else{
     /*....這裡就放入一般正常裝置的程式碼....*/
 }
-var rwd = window.matchMedia("(max-width: 815px)");
+var rwd = window.matchMedia("(max-width: 768px)");
 rwd.addListener(resizeWidth);
 resizeWidth(rwd);
 
