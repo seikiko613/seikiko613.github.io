@@ -1,12 +1,13 @@
 //標題半透明效果
-window.onscroll = function() {scrollFunction();StickerScroll();};
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     document.getElementById("header").style.opacity = "0.7";
+      document.getElementsByClassName("content_sticker").style.display = "block";
   } else {
     document.getElementById("header").style.opacity = "1";
-      
+      document.getElementsByClassName("content_sticker").style.display = "none";
   }
 }
 
