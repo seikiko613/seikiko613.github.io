@@ -64,9 +64,9 @@ a:active{
 #tittle_small{
     display: none;
     float: right;
-    font-size: 34px;
+    font-size: 30px;
     color: #565656;
-    margin: 3px 10px 3px 0px;
+    margin: 7px 15px 0px 0px;
     border: 2px #565656 solid;
     padding: 0 7px;
     border-radius: 5px;
@@ -88,7 +88,7 @@ a:active{
     width:100%;
     object-fit: cover;
     display: block;
-    margin: 60px auto 0 auto;
+    margin: 51px auto 0 auto;
 }
 .pic_box{
     border:2px #ffffff solid;
