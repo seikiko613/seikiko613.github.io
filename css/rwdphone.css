@@ -20,7 +20,6 @@
         margin: 0 auto;
     }
     .sticker img{
-        width:240px;
         filter: grayscale(0%);
     }
     .s1,.s2,.s3{

@@ -13,7 +13,21 @@ if(isMobile()){
 }else{
     /*....這裡就放入一般正常裝置的程式碼....*/
 }
+//選單半透明效果
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    if(document.getElementById("tittle_small").innerHTML === "≡"){//如果手機版選單未開啟時
+        document.getElementById("header").style.opacity = "0.7";
+    }else{
+        document.getElementById("header").style.opacity = "1";
+    }                                                   
+  } else {
+    document.getElementById("header").style.opacity = "1";
+      
+  }
+}
 //JS判斷螢幕大小
 var rwd = window.matchMedia("(max-width: 768px)");
 rwd.addListener(resizeWidth);
@@ -63,18 +77,3 @@ function menu_change()
         tl.style.display="none";
     }
 }
-
-//選單半透明
-/*window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-       // if(document.getElementById("tittle_small").innerHTML === "≡"){
-        document.getElementById("header").style.opacity = "0.7";
-        //}
-    
-    } else {
-    document.getElementById("header").style.opacity = "1";
-      
-  }
-}*/

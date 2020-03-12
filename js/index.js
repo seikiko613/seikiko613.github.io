@@ -1,5 +1,5 @@
 //標題半透明效果
-window.onscroll = function() {scrollFunction()};
+/*window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
@@ -12,4 +12,4 @@ function scrollFunction() {
     document.getElementById("header").style.opacity = "1";
       
   }
-}
+}*/
