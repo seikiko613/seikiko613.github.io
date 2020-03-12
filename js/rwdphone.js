@@ -24,6 +24,7 @@ function resizeWidth(pMatchMedia){
     //小於768時執行的js
     menu_phone();
     
+    
   }else {
     //大於768時執行的js
     menu_pc();
@@ -35,9 +36,11 @@ function resizeWidth(pMatchMedia){
 //menu變化
 function menu_phone(){document.getElementById("tittle_link").style.display="none";
 document.getElementById("tittle_small").style.display="block";
+document.getElementById("header").style.opacity = "1";
 }
 function menu_pc(){document.getElementById("tittle_link").style.display="block";
 document.getElementById("tittle_small").style.display="none";
+document.getElementById("tittle_small").innerHTML = "≡";
 }
 
 //選單變化
@@ -46,10 +49,13 @@ function menu_change()
 {
     var ts = document.getElementById("tittle_small");
     var tl = document.getElementById("tittle_link");
+    var hd =document.getElementById("header");
+    
     if(ts.innerHTML === "≡"){
         ts.innerHTML = "X";
         ts.style.padding="0 6px";
         tl.style.display="block";
+        hd.style.opacity="1";
     }else{
         ts.innerHTML = "≡";
         ts.style.padding="0 7px";
