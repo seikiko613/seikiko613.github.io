@@ -7,8 +7,18 @@
     #tittle_small{
         display: block;
     }
+    .sticker img{
+        filter: grayscale(0%);
+    }
+    .s1,.s2,.s3{
+        margin-right: 0px;
+    }
     .icon{
         width:100%;
+    }
+    .ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8{
+        width: 150px;
+        height:150px;
     }
     .video{
         width:80%;
