@@ -7,14 +7,19 @@
     #tittle_small{
         display: block;
     }
+    .sticker{
+        width:200px;
+        margin: 0 auto;
+    }
     .sticker img{
+        width:240px;
         filter: grayscale(0%);
     }
     .s1,.s2,.s3{
         margin-right: 0px;
     }
     .icon{
-        width:100%;
+        width:400px;
     }
     .ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8{
         width: 150px;

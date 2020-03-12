@@ -53,7 +53,7 @@ a:active{
 }
 #tittle_link a{
     margin-right: 5px;
-   transition: all 0.5s;
+    transition: all 0.5s;
 }
 #tittle_link a:hover{
  /*   text-decoration: underline; */
@@ -62,7 +62,9 @@ a:active{
     position: relative;
     top: 2px;
     color:#cd5c5c;
-    
+}
+#tittle_link a::after{
+    content: " |"
 }
 #tittle_small{
     display: none;
