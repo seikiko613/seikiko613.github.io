@@ -28,7 +28,7 @@
     .icon{
         width:340px;
     }
-    .ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8{
+    .ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8,.ic9,.ic10,.ic11,.ic12,.ic13,.ic14,.ic15,.ic16{
         width: 150px;
         height:150px;
     }
@@ -51,4 +51,15 @@
     width: 100%;
     height: 100%;        
     }*/
+
+/* icon rwd*/
+    .icon_ex img{
+        width: 90%;
+    }
+    .icon_ex p{
+        width: 80%;
+        text-align: left;
+    }
+
+
 }

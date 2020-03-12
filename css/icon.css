@@ -1,0 +1,47 @@
+.icon_ex{
+    position: relative;
+}
+.icon_ex img{
+    width:600px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border:1px #909090 dashed;
+    border-radius: 10px;
+}
+.icon_ex p{
+    font-size: 18px;
+    margin: 30px auto;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    margin: 0 auto;
+}
+.ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8,.ic9,.ic10,.ic11,.ic12,.ic13,.ic14,.ic15,.ic16{
+    border: 1px #d0d0d0 dotted;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    transition:all 0.5s;
+}
+.ic5 img{
+    width: 90px;
+}
+.icon div:hover{
+/*    position: relative;
+    top: 2px;*/
+/*    background-color: #f0f0f0;*/
+    box-shadow: 2px 2px 5px #9f9f9f;
+   
+}
