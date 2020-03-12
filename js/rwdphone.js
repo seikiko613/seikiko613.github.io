@@ -28,15 +28,16 @@ function resizeWidth(pMatchMedia){
   }else {
     //大於768時執行的js
     menu_pc();
-    window.onscroll = function() {scrollFunction()};
+    
       
   }
 }
 
+
 //menu變化
 function menu_phone(){document.getElementById("tittle_link").style.display="none";
 document.getElementById("tittle_small").style.display="block";
-document.getElementById("header").style.opacity = "1";
+//document.getElementById("header").style.opacity = "1";
 }
 function menu_pc(){document.getElementById("tittle_link").style.display="block";
 document.getElementById("tittle_small").style.display="none";
@@ -49,7 +50,7 @@ function menu_change()
 {
     var ts = document.getElementById("tittle_small");
     var tl = document.getElementById("tittle_link");
-    var hd =document.getElementById("header");
+    var hd = document.getElementById("header");
     
     if(ts.innerHTML === "≡"){
         ts.innerHTML = "X";
@@ -62,3 +63,18 @@ function menu_change()
         tl.style.display="none";
     }
 }
+
+//選單半透明
+/*window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+       // if(document.getElementById("tittle_small").innerHTML === "≡"){
+        document.getElementById("header").style.opacity = "0.7";
+        //}
+    
+    } else {
+    document.getElementById("header").style.opacity = "1";
+      
+  }
+}*/
