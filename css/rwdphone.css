@@ -7,17 +7,19 @@
     #tittle_small{
         display: block;
     }
-    
+    .icon{
+        width:100%;
+    }
     .video{
         width:80%;
         margin: 0 auto;
     }
-    .v1,.v2{
+ /*   .v1,.v2{
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin: 10px 30px;
+    margin: 10px 0px;
     }
     
     .v1 iframe,.v2 iframe{
@@ -26,5 +28,5 @@
     left: 0;
     width: 100%;
     height: 100%;        
-    }
+    }*/
 }
