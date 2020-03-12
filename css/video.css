@@ -1,0 +1,25 @@
+.video{
+    width: 448px;
+    margin: 0px auto;
+}
+.video p{
+    font-size: 18px;
+    margin: 30px auto;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+}
+.v1,.v2,.v3,.v4,.v5,.v6{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.v1 iframe,.v2 iframe,.v3 iframe,.v4 iframe,.v5 iframe,.v6 iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;        
+}

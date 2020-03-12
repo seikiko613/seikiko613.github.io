@@ -52,7 +52,7 @@
     height: 100%;        
     }*/
 
-/* icon rwd*/
+/* icon rwd */
     .icon_ex img{
         width: 90%;
     }
@@ -60,6 +60,8 @@
         width: 80%;
         text-align: left;
     }
-
-
+/* video rwd */
+    .icon_ex p{
+        
+    }
 }
