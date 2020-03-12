@@ -13,24 +13,46 @@ if(isMobile()){
 }else{
     /*....這裡就放入一般正常裝置的程式碼....*/
 }
+
+//JS判斷螢幕大小
 var rwd = window.matchMedia("(max-width: 768px)");
 rwd.addListener(resizeWidth);
 resizeWidth(rwd);
 
-function test1(){document.getElementById("tittle_link").style.display="none";
-document.getElementById("tittle_small").style.display="block";
-}
-function test2(){document.getElementById("tittle_link").style.display="block";
-document.getElementById("tittle_small").style.display="none";
-}
-
 function resizeWidth(pMatchMedia){
   if (pMatchMedia.matches) {
     //小於768時執行的js
-    test1();
+    menu_phone();
     
   }else {
     //大於768時執行的js
-    test2();
+    menu_pc();
+    window.onscroll = function() {scrollFunction()};
+      
   }
+}
+
+//menu變化
+function menu_phone(){document.getElementById("tittle_link").style.display="none";
+document.getElementById("tittle_small").style.display="block";
+}
+function menu_pc(){document.getElementById("tittle_link").style.display="block";
+document.getElementById("tittle_small").style.display="none";
+}
+
+//選單變化
+
+function menu_change()
+{
+    var ts = document.getElementById("tittle_small");
+    var tl = document.getElementById("tittle_link");
+    if(ts.innerHTML === "≡"){
+        ts.innerHTML = "X";
+        ts.style.padding="0 6px";
+        tl.style.display="block";
+    }else{
+        ts.innerHTML = "≡";
+        ts.style.padding="0 7px";
+        tl.style.display="none";
+    }
 }

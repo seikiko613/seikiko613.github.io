@@ -1,5 +1,5 @@
 //標題半透明效果
-window.onscroll = function() {scrollFunction()};
+//window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
@@ -11,7 +11,7 @@ function scrollFunction() {
   }
 }
 
-function test(){
+/*function test(){
     var x = document.getElementById("tittle_link");
     if(x.style.display==="none"){
         x.style.display="block";
@@ -19,3 +19,4 @@ function test(){
         x.style.display="none";
     }
 }
+*/

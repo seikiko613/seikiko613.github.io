@@ -3,9 +3,17 @@
 
     #tittle_link{
         display: none;
+        float: none;
+        text-align: center;
     }
     #tittle_small{
         display: block;
+    }
+    #tittle_link a{
+        display: block;
+    }
+    #tittle_link a::after{
+        content: " "
     }
     .sticker{
         width:200px;
