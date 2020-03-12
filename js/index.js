@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    if(document.getElementById("tittle_small").innerHTML === "≡"){
+    if(document.getElementById("tittle_small").innerHTML === "≡"){//如果手機版選單未開啟時
         document.getElementById("header").style.opacity = "0.7";
     }else{
         document.getElementById("header").style.opacity = "1";
@@ -13,13 +13,3 @@ function scrollFunction() {
       
   }
 }
-
-/*function test(){
-    var x = document.getElementById("tittle_link");
-    if(x.style.display==="none"){
-        x.style.display="block";
-    }else{
-        x.style.display="none";
-    }
-}
-*/
