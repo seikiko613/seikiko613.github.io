@@ -12,6 +12,9 @@ body {
     background-position: 100% 60px,
                         0% 100%;
 }
+p{
+    color:#565656;
+}
 a{
     text-decoration: none;
     color: #565656;

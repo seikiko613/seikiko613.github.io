@@ -2,12 +2,23 @@
     width: 448px;
     margin: 0px auto;
 }
-.video p{
-    font-size: 18px;
-    margin: 30px auto;
-    letter-spacing: 1px;
+.t1,.t2{
     text-align: center;
-    line-height: 30px;
+}
+.t1{
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:#af4343;
+}
+.t2{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.video_ex{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 .v1,.v2,.v3,.v4,.v5,.v6{
     position: relative;
