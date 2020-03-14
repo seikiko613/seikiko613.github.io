@@ -69,11 +69,12 @@ function menu_change()
     if(ts.innerHTML === "≡"){
         ts.innerHTML = "X";
         ts.style.padding="0 6px";
-        tl.style.display="block";
+        $("#tittle_link").slideDown();
+
         hd.style.opacity="1";
     }else{
         ts.innerHTML = "≡";
         ts.style.padding="0 7px";
-        tl.style.display="none";
+        $("#tittle_link").slideUp();
     }
 }
