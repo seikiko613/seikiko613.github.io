@@ -61,6 +61,10 @@
     .sticker_tit{
         width: 320px;
     }
+    .sticker_p{
+        text-align: left;
+        line-height: 26px;
+    }
     #sticker_momo,#sticker_chicken,#sticker_newyear{
         width: 320px;
     }

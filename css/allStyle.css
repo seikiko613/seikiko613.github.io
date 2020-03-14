@@ -51,7 +51,7 @@ a:active{
     float: right;
     line-height: 60px;
     letter-spacing: 3px;
-    transition: all 2s;
+    /*transition: all 2s;*/
     
 }
 #tittle_link a{

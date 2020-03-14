@@ -1,7 +1,7 @@
 //載入後觸發
 $(document).ready(function(){
     sticker();
-    getUrlParam();
+   // getUrlParam();
 });
 
 
@@ -39,8 +39,7 @@ function sticker(){
 
 
 // 判斷首頁點選的
-
-function getUrlParam(){
+window.onload = function getUrlParam(){
     
     var r = location.search;
     if(r.indexOf('?')!= -1){//是否有資料傳遞
@@ -55,7 +54,7 @@ function getUrlParam(){
         if (sticker == "wildchicken"){
             show_chicken();
         }else
-        if (sticker == "newyear"){
+        if (sticker == "2020newyear"){
             show_newyear();
         }
     }else{

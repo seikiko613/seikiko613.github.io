@@ -43,6 +43,7 @@
 .sticker_p{
     width: 100%;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #sticker_momo,#sticker_chicken,#sticker_newyear{
