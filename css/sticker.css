@@ -14,11 +14,37 @@
     padding: 5px;
 }
 .sticker_tit img:hover{
-    background-color: #e3e3e3;
+    background-color: #bfe3ce;
     position: relative;
     top:1px;
     cursor: pointer; 
 }
+.sticker_money{
+    color: #00b84f;
+    font-size: 20px;
+    margin-right: 20px;    
+}
+.sticker_link{
+   
+}
+.buy{
+    text-align: center;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: #00b84f;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+}
+.buy:hover{
+    position: relative;
+    top:1px;
+}
+.sticker_p{
+    width: 100%;
+    text-align: center;
+}
+
 #sticker_momo,#sticker_chicken,#sticker_newyear{
     display: flex;
     flex-wrap: wrap;

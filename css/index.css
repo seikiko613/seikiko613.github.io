@@ -137,3 +137,9 @@
     width: 100%;
     height: 100%;        
 }
+/* 獨立手機rwd */
+@media screen and (max-width:767px){
+    .ic5,.ic6,.ic7,.ic8{
+        display: none;
+    }
+}

@@ -21,9 +21,14 @@
     }
     .sticker img{
         filter: grayscale(0%);
+        width: 170px;
     }
     .s1,.s2,.s3{
         margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .s1:hover,.s2:hover,.s3:hover,.icon div:hover{
+        box-shadow: none;
     }
     .icon{
         width:340px;

@@ -13,3 +13,13 @@ function scrollFunction() {
       
   }
 }*/
+
+// URL添加參數
+
+function addParamToURL(key,value){
+    var r = document.location.href;
+    r = r + "?" + key + "=" + value ;
+
+}
+
+//addParamToURL(sticker,1);
