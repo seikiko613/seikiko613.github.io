@@ -35,8 +35,14 @@
     border-radius: 5px;
     transition:all 0.5s;
 }
-.ic5 img{
-    width: 90px;
+.ic1 img,.ic4 img,.ic6 img,.ic7 img,.ic8 img ,.ic9 img,.ic11 img,.ic12 img,.ic14 img,.ic15 img,.ic16 img{
+    height: 80%;
+}
+.ic2 img,.ic3 img,.ic5 img,.ic10 img{
+    width:80%;
+}
+.ic13 img{
+    height:50%;
 }
 .icon div:hover{
 /*    position: relative;

@@ -1,6 +1,9 @@
 /* 手機RWD */
 @media screen and (max-width:767px){
-
+    body{
+        background-size: 30%,30%;
+    }
+    
     #tittle_link{
         display: none;
         float: none;
