@@ -110,8 +110,8 @@
     border-radius: 5px;
     transition:all 0.5s;
 }
-.icon img{
-    height: 70%;
+.ic5 img{
+    width:90px;
 }
 
 .icon div:hover{
