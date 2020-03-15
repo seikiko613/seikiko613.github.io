@@ -1,9 +1,9 @@
 .sticker_tit{
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     height: 101px;
 }
-.st{
+.st1,.st2,.st3{
     float: left;
 }
 .sticker_tit img{
@@ -13,7 +13,7 @@
     margin-right: 10px;
     padding: 5px;
 }
-.sticker_tit img:hover{
+.st1 img:hover,.st2 img:hover,.st3 img:hover{
     background-color: #bfe3ce;
     position: relative;
     top:1px;
@@ -50,7 +50,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 1px #565656 dashed;
     border-radius: 10px;
@@ -61,7 +61,10 @@
 .momo img,.chicken img,.newyear img{
     width: 150px;
     opacity: 0.7;
+    padding: 25px;
 }
 .momo img:hover,.chicken img:hover,.newyear img:hover{
     opacity: 1;
+    width: 200px;
+    padding: 0px;
 }

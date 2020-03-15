@@ -8,7 +8,7 @@ $(document).ready(function(){
 // 給予貼圖購買連結並跑出貼圖
 var momo = '<p class="sticker_money">NT$30</p><a class="sticker_link" href="https://store.line.me/stickershop/product/1025308/zh-Hant?from=sticker"><div class="buy">購買</div></a><p class="sticker_p">讓默默兔的日常生活融入你的日常生活裡吧~</p>' ;
 var chicken = '<p class="sticker_money">NT$30</p><a class="sticker_link" href="https://store.line.me/stickershop/product/1120423/zh-Hant?from=sticker"><div class="buy">購買</div></a><p class="sticker_p">成功捕捉一隻野生雞哥！讓可愛的他參與你的日常貼圖吧 !</p>' ;
-var newyear = '<p class="sticker_money">NT$30</p><a class="sticker_link" href="https://store.line.me/stickershop/product/10227370/zh-Hant?from=sticker"><div class="buy">購買</div></a><p class="sticker_p">可愛的新年鼠陪伴“鼠”於你的新年</p>' ;
+var newyear = '<p class="sticker_money">NT$30</p><a class="sticker_link" href="https://store.line.me/stickershop/product/10227370/zh-Hant?from=sticker"><div class="buy">購買</div></a><p class="sticker_p">可愛的新年鼠陪伴“鼠”於你的新年!</p>' ;
 
 
 function sticker(){
@@ -68,6 +68,10 @@ function show_momo(){
     document.getElementById("sticker_momo").style.display = "flex" ;
     document.getElementById("sticker_chicken").style.display = "none" ;
     document.getElementById("sticker_newyear").style.display = "none" ;
+    $(".st1").children().css({"background-color":"#daeae1"});
+    $(".st2").children().css({"background-color":""});
+    $(".st3").children().css({"background-color":""});
+    
     
 }
 //展示野生雞哥貼圖
@@ -75,6 +79,9 @@ function show_chicken(){
     document.getElementById("sticker_momo").style.display = "none" ;
     document.getElementById("sticker_chicken").style.display = "flex" ;
     document.getElementById("sticker_newyear").style.display = "none" ;
+    $(".st1").children().css({"background-color":""});
+    $(".st2").children().css({"background-color":"#daeae1"});
+    $(".st3").children().css({"background-color":""});
     
 }
 //展示鼠你新年貼圖
@@ -82,6 +89,9 @@ function show_newyear(){
     document.getElementById("sticker_momo").style.display = "none" ;
     document.getElementById("sticker_chicken").style.display = "none" ;
     document.getElementById("sticker_newyear").style.display = "flex" ;
+    $(".st1").children().css({"background-color":""});
+    $(".st2").children().css({"background-color":""});
+    $(".st3").children().css({"background-color":"#daeae1"});
     
 }
 

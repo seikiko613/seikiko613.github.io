@@ -64,12 +64,18 @@
     .sticker_p{
         text-align: left;
         line-height: 26px;
+        margin-left: 8px;
     }
     #sticker_momo,#sticker_chicken,#sticker_newyear{
         width: 320px;
     }
+    .momo img:hover,.chicken img:hover,.newyear img:hover{
+        width: 150px;
+        padding: 0px;
+    }
     .momo img,.chicken img,.newyear img{
-        width:130px;
+        width:110px;
+        padding:20px;
     }
 /* icon rwd */
     .icon_ex img{
@@ -80,7 +86,11 @@
         text-align: left;
     }
 /* video rwd */
+    .t2{
+        font-size: 16px;
+    }
     .video_ex{
         text-align: left;
+        font-size: 16px;
     }
 }
