@@ -50,11 +50,11 @@ function resizeWidth(pMatchMedia){
 
 //menu變化
 function menu_phone(){document.getElementById("tittle_link").style.display="none";
-document.getElementById("tittle_small").style.display="block";
+document.getElementById("tittle_menu").style.display="block";
 //document.getElementById("header").style.opacity = "1";
 }
 function menu_pc(){document.getElementById("tittle_link").style.display="block";
-document.getElementById("tittle_small").style.display="none";
+document.getElementById("tittle_menu").style.display="none";
 document.getElementById("tittle_small").innerHTML = "≡";
 }
 
@@ -62,19 +62,25 @@ document.getElementById("tittle_small").innerHTML = "≡";
 
 function menu_change()
 {
-    var ts = document.getElementById("tittle_small");
-    var tl = document.getElementById("tittle_link");
-    var hd = document.getElementById("header");
+    var ts = $("#tittle_small");
+    var tl = $("#tittle_link");
+    var hd = $("#header");
     
     if(ts.innerHTML === "≡"){
+        $("tittle_menu").addClass("change");
         ts.innerHTML = "X";
-        ts.style.padding="0 6px";
-        $("#tittle_link").slideDown();
-
+        tl.slideDown();
         hd.style.opacity="1";
     }else{
+        $("tittle_menu").removeClass("change");
         ts.innerHTML = "≡";
-        ts.style.padding="0 7px";
-        $("#tittle_link").slideUp();
+        tl.slideUp();
     }
+}
+
+//menu符號變化
+
+function menuChange(x){
+    x.classList.toggle("change");
+    $("#tittle_link").slideToggle();
 }
