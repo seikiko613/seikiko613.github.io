@@ -5,6 +5,7 @@
         display: none;
         float: none;
         text-align: center;
+        opacity: 1;
     }
     #tittle_menu{
         display: block;

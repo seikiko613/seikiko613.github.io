@@ -13,18 +13,23 @@ if(isMobile()){
 }else{
     /*....這裡就放入一般正常裝置的程式碼....*/
 }
+$(document).ready(function(){
+
+});
 //選單半透明效果
 window.onscroll = function() {scrollFunction()};
+var w = $(window).width();
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    if(document.getElementById("tittle_small").innerHTML === "≡"){//如果手機版選單未開啟時
-        document.getElementById("header").style.opacity = "0.7";
-    }else{
-        document.getElementById("header").style.opacity = "1";
-    }                                                   
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        if( w > 768 ){
+            document.getElementById("header").style.opacity = "0.7"; 
+        }else{
+            document.getElementById("header").style.opacity = "1";
+        }
+                                                     
   } else {
-    document.getElementById("header").style.opacity = "1";
+      document.getElementById("header").style.opacity = "1";
       
   }
 }
@@ -55,32 +60,15 @@ document.getElementById("tittle_menu").style.display="block";
 }
 function menu_pc(){document.getElementById("tittle_link").style.display="block";
 document.getElementById("tittle_menu").style.display="none";
-document.getElementById("tittle_small").innerHTML = "≡";
+$("#tittle_menu").removeClass("change");
+
 }
 
 //選單變化
 
 function menu_change()
 {
-    var ts = $("#tittle_small");
-    var tl = $("#tittle_link");
-    var hd = $("#header");
-    
-    if(ts.innerHTML === "≡"){
-        $("tittle_menu").addClass("change");
-        ts.innerHTML = "X";
-        tl.slideDown();
-        hd.style.opacity="1";
-    }else{
-        $("tittle_menu").removeClass("change");
-        ts.innerHTML = "≡";
-        tl.slideUp();
-    }
-}
-
-//menu符號變化
-
-function menuChange(x){
-    x.classList.toggle("change");
+    $("#tittle_menu").toggleClass("change");
     $("#tittle_link").slideToggle();
+    //document.getElementById("header").style.opacity="1";
 }

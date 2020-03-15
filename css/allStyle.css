@@ -104,14 +104,14 @@ a:active{
 
 #tittle_small{
     display: none;
-    float: right;
+ /*   float: right;
     font-size: 30px;
     color: #565656;
     margin: 7px 15px 0px 0px;
     border: 2px #565656 solid;
     padding: 0 7px;
     border-radius: 5px;
-    cursor: pointer; 
+    cursor: pointer; */
 }
 #content .con_tittle{
     font-size: 24px;
