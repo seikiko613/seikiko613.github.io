@@ -116,6 +116,15 @@
         width: 80%;
         text-align: left;
     }
+    .icon_phone{
+        width: 300px;
+    }
+    .icon_phone div{
+        opacity: 0.5;
+    } 
+    .icon_phone div:hover{
+        opacity: 1;
+    }
     .ic1 img,.ic4 img,.ic6 img,.ic7 img,.ic8 img ,.ic9 img,.ic11 img,.ic12 img,.ic14 img,.ic15 img,.ic16 img{
         height: 50%;
     }
