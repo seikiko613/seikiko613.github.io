@@ -45,10 +45,12 @@
         float: none;
         text-align: center;
         opacity: 1;
+        overflow: auto;
     }
     #tittle_link a{
         display: block;
-        font-size: 22px;
+        font-size: 20px;
+        letter-spacing: 20px
     }
     #tittle_link a::after{
         content: " "
@@ -69,32 +71,16 @@
         box-shadow: none;
     }
     .icon{
-        width:340px;
+        width:300px;
     }
     .ic1,.ic2,.ic3,.ic4,.ic5,.ic6,.ic7,.ic8,.ic9,.ic10,.ic11,.ic12,.ic13,.ic14,.ic15,.ic16{
-        width: 150px;
-        height:150px;
+        width: 130px;
+        height:130px;
     }
     .video{
         width:80%;
         margin: 0 auto;
     }
- /*   .v1,.v2{
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 10px 0px;
-    }
-    
-    .v1 iframe,.v2 iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;        
-    }*/
-
 /* sticker rwd */
     .sticker_tit{
         width: 300px;
@@ -115,10 +101,6 @@
         width: 290px;
     }
     .momo img:hover,.chicken img:hover,.newyear img:hover{
-        width: 140px;
-        padding: 0px;
-    }
-    .momo img:focus,.chicken img:focus,.newyear img:focus{
         width: 140px;
         padding: 0px;
     }
