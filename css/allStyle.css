@@ -68,14 +68,17 @@ a:active{
     content: " |"
 }
 
-/* menu變化*/
+#tittle_menu{
+    display: none;
+}
+/* menu變化
 
 #tittle_menu {
     display: none;
     cursor: pointer;
     float: right;
     margin:13px 10px 0px 0px;
-    
+    padding-right: 10px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -100,7 +103,7 @@ a:active{
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-/* menu變化結束*/
+menu變化結束*/
 
 #content .con_tittle{
     font-size: 24px;

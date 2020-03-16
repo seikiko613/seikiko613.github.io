@@ -60,7 +60,7 @@
 }
 .momo img,.chicken img,.newyear img{
     width: 150px;
-    opacity: 0.7;
+    opacity: 0.5;
     padding: 25px;
 }
 .momo img:hover,.chicken img:hover,.newyear img:hover{
