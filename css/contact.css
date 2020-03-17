@@ -1,0 +1,22 @@
+.content table{
+    width: 300px;
+}
+.content tr{
+    height:50px;
+}
+.content th{
+    width:100px;
+}
+.content td{
+    
+}
+table, th, td{
+    border: 1px #565656 dashed;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+th, td{
+    text-align: left;
+    padding: 16px 8px;
+}

@@ -45,6 +45,10 @@ a:active{
 }
 #header img{
     width:300px;
+    opacity: 0.8;
+}
+#header img:hover{
+    opacity: 1;
 }
 #tittle_link{
     display: block;

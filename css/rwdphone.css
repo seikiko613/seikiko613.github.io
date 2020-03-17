@@ -45,12 +45,13 @@
         float: none;
         text-align: center;
         opacity: 1;
-        overflow: auto;
+        line-height: 50px;
     }
     #tittle_link a{
         display: block;
         font-size: 20px;
-        letter-spacing: 20px
+        letter-spacing: 10px;
+        margin-right: 0px;
     }
     #tittle_link a::after{
         content: " "
